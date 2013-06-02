@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_beep"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Beep"/>
+    <item
+        android:id="@+id/action_beat"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Beat"/>
+    <item
+        android:id="@+id/action_silent"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Silent"/>
+
+</menu>
