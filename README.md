@@ -12,4 +12,19 @@ The project also ended up being a test of Android Studio and the new Gradle buil
 Note that I'm not sure where I got the wav-file in the assets folder from, and you should therefore not use that if you
 build on this project.
 
+Only tested on my Samsung Galaxy S3.
+
+Compile and install
+-------------------
+ANDROID_HOME must point to your android SDK path.
+
+gradlew :pulse:tasks
+
+-   Will show you what you can do
+
+gradlew installDebug
+
+-   Will install the debug version of the app on your connected device.
+
+
 By Arve Skogvold
